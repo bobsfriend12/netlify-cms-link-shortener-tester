@@ -1,0 +1,23 @@
+{
+  "name": "netlify-cms-link-shortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "start": "eleventy --serve",
+      "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobsfriend12/netlify-cms-link-shortener.git"
+  },
+  "author": "bobsfriend12",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bobsfriend12/netlify-cms-link-shortener/issues"
+  },
+  "homepage": "https://github.com/bobsfriend12/netlify-cms-link-shortener#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
