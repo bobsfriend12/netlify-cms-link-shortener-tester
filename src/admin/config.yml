@@ -24,7 +24,7 @@ collections:
                 name: "name",
                 widget: "string",
                 required: true,
-                hint: "This is used in the admin menu, so that you can identify the link."
+                hint: "This is used in the admin menu so that you can identify the link."
             }
           - {
                 label: "Link",
@@ -32,7 +32,7 @@ collections:
                 widget: "string",
                 required: true,
                 pattern: ["^((?! ).)*$", "The link cannot contain spaces."],
-                hint: "This is what appears after your site's url. This cannot contain spaces. Changes here will not take effect. If you want to change it then you have to delete this link and create a new one."
+                hint: "This is what appears after your site's url. It cannot contain spaces (use-dashes-instead). Changes here will not take effect. If you want to change it then you have to delete this link and create a new one."
             }
           - {
                 label: "Redirect",

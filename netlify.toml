@@ -1,3 +1,8 @@
 [build]
 publish = "/public/"
 command = "npm run build"
+
+[template.environment]
+SITE_NAME = "Your site name"
+LARGE_LOGO_URL = "The URL to your logo"
+FAVICON_URL = "The URL to your favicon (the little picture in the browser tab)"

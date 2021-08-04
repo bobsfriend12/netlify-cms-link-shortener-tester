@@ -14,7 +14,7 @@
 			type="image/x-icon"
 		/>
 
-		<title>{{ siteinfo.sitename }}</title>
+		<title>{{ env.SITE_NAME }}</title>
 
 		<style>
 			.redirect {
@@ -34,8 +34,8 @@
 	<body>
 		<div class="redirect">
 			<img
-				src="{{ siteinfo.largelogourl }}"
-				alt="{{ siteinfo.sitename }} logo"
+				src="{{ env.LARGE_LOGO_URL }}"
+				alt="{{ env.SITE_NAME }} logo"
 				class="redirect__logo"
 			/>
 			<p class="redirecting__text">Redirecting in 5 seconds...</p>
