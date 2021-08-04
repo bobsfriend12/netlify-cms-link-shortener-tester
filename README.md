@@ -4,8 +4,16 @@ This is a web app that shortens links with the help of [Eleventy](https://11ty.d
 
 ## Deployment
 
-1. Fork this repo.
-2. Edit the `_data/siteinfo.json` file with your site's info.
-3. Click the deploy to netlify button **IN YOUR REPO** if you click it in this repo then your sites info won't be here.
+[Deploy to Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/bobsfriend12/netlify-cms-link-shortener)
 
-It is possible to use another host other than netlify, but that would require changing the code. Netlify is a great free hosting platform so why not use them?
+1. Click the 'Deploy to Netlify' button to setup your own instance of this.
+2. Edit the `_data/siteinfo.json` file with your site's info. (You could even to that from the GitHub web interface).
+3. Thats it!
+
+## FAQ
+
+Q: Is it possible to use another host other than netlify?
+A: Yes, but you would have to enter the build settings as you see in `netlify.toml`, and change the Netlify CMS config as it is using a Netlify specific technology called `git-gateway`.
+
+Q: Can I use this commercially?
+A: I mean sure. This is not the best solution; I just made it because I was bored.
